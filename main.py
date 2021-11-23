@@ -35,7 +35,6 @@ class Example(QWidget):
         self.qp.setBrush(QColor(choice(self.colors)))
         self.qp.drawEllipse(x, y, R, R)
 
-
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(400, 300)
